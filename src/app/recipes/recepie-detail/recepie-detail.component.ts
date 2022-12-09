@@ -8,4 +8,6 @@ import { Recipe } from '../recipes.model';
 })
 export class RecepieDetailComponent {
   @Input() recipe: Recipe;
+
+  onAddToShoppingList(){}
 }
